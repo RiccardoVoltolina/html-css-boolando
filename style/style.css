@@ -35,6 +35,15 @@
 
 /*debug*/
 
+.container {
+    background-color: red;
+    height: 600px;
+}
+
+.main_col_1, .main_col_2, .main_col_3 {
+    background-color: black;
+    border: 1px solid white;
+}
 
 /*header*/
 
@@ -42,7 +51,7 @@ header {
     background-color: var(--color-header);
 }
 
-nav {
+nav, .container {
     width: 80%;
     max-width: 1170px;
     margin: auto;
@@ -69,6 +78,25 @@ nav {
 nav div a {
     color: var(--color-bck-body);
 }
+
+/*main*/
+
+section {
+    margin-top: 40px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+.main_col_1, .main_col_2, .main_col_3 {
+    width: calc(100% / 3);
+    height: 500px;
+}
+
+
+
+
 
 
 
