@@ -87,16 +87,39 @@ nav div a {
 
 .card_image_container {
     height: 500px;
+    position: relative;
 }
 
 .immage_main {
     height: 100%;
     width: 100%;
+    z-index: 1;
 }
+
+
+.immage_main_hover {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.card_image_container:hover .immage_main_hover{
+    z-index:2;
+
+}
+
+/* quando vado sopra la card immage_main lo z-index diventa -2 (diminuisce) */
+
 
 .container_info {
     position: absolute;
     bottom: 100px;
+    z-index: 3;
 }
 
 
@@ -120,6 +143,7 @@ nav div a {
     right: 0;
     background-color: var(--color-bck-body);
     padding: 10px;
+    z-index: 3;
 }
 
 .card_container_text {
