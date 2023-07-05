@@ -41,9 +41,13 @@
 header {
     background-color: var(--color-header);
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 
-nav, .container {
+nav, .container, .container_footer {
     width: 80%;
     max-width: 1170px;
     margin: auto;
@@ -73,10 +77,13 @@ nav div a {
 
 /*main*/
 
+main {
+    margin: 100px 0;
+}
+
 .container {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 600px;
 }
 
 
@@ -162,9 +169,46 @@ nav div a {
     text-decoration: line-through;
 }
 
+/* footer */
 
+footer {
+    background-color: var(--color-bck-footer);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
 
+.container_footer {
+    height: 100px;
+    color: var(--color-bck-body);
+}
 
+.footer {
+    width: 50%;
+}
+
+.boolando, .info_footer, .trovaci, .items {
+    margin-top: 15px;
+}
+
+.trovaci {
+    margin-right: 18px;
+}
+
+.info_footer a {
+    text-decoration: none;
+    color: var(--color-bck-card);
+}
+
+.social {
+    text-align: end;
+}
+
+.items a {
+    color: var(--color-bck-body);
+    padding: 5px;
+}
 
 
 
