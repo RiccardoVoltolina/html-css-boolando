@@ -36,13 +36,6 @@
 
 
 
-/*debug*/
-
-.container {
-    background-color: blue;
-    height: 600px;
-}
-
 /*header*/
 
 header {
@@ -82,14 +75,18 @@ nav div a {
 
 .container {
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 600px;
 }
 
 
 .card {
     width: calc(100% / 3 - 10px);
-    height: 500px;
-    border: 1px solid white;
     position: relative;
+}
+
+.card_image_container {
+    height: 500px;
 }
 
 .immage_main {
@@ -99,7 +96,7 @@ nav div a {
 
 .container_info {
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
 }
 
 
@@ -123,6 +120,10 @@ nav div a {
     right: 0;
     background-color: var(--color-bck-body);
     padding: 10px;
+}
+
+.card_container_text {
+    margin-bottom: 15px;
 }
 
 .brand, .crossed_price {
