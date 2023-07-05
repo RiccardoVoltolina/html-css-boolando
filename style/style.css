@@ -33,15 +33,14 @@
     color: var(--color-bck-body);
 }
 
+
+
+
 /*debug*/
 
 .container {
     background-color: red;
     height: 600px;
-}
-
-.main_col_1, .main_col_2, .main_col_3 {
-    border: 1px solid white;
 }
 
 /*header*/
@@ -84,19 +83,55 @@ section {
     margin-top: 40px;
 }
 
-.gap_10 {
-    gap: 10px;
+.container {
+    justify-content: space-evenly;
 }
 
-.main_col_1, .main_col_2, .main_col_3 {
-    width: calc(100% / 3);
+
+.card {
+    width: calc(100% / 3 - 10px);
     height: 500px;
+    border: 1px solid white;
+    position: relative;
 }
 
-.main_col_1 {
-    background-image: url(img/img/1.webp);
-    background-size: cover;
+.immage_main {
+    height: 100%;
+    width: 100%;
 }
+
+.container_info {
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+.discount, .sostenibilita {
+    padding: 5px;
+    color: var(--color-bck-body);
+}
+
+.discount {
+    background-color: var(--color-discount);
+}
+
+.sostenibilita {
+    background-color: var(--color-sostenibility);
+}
+
+.my_heart {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background-color: var(--color-bck-body);
+    padding: 10px;
+}
+
+
+
+
+
 
 
 
