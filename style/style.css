@@ -39,7 +39,7 @@
 /*debug*/
 
 .container {
-    background-color: red;
+    background-color: blue;
     height: 600px;
 }
 
@@ -47,6 +47,7 @@
 
 header {
     background-color: var(--color-header);
+    margin-bottom: 30px;
 }
 
 nav, .container {
@@ -78,10 +79,6 @@ nav div a {
 }
 
 /*main*/
-
-section {
-    margin-top: 40px;
-}
 
 .container {
     justify-content: space-evenly;
@@ -126,6 +123,18 @@ section {
     right: 0;
     background-color: var(--color-bck-body);
     padding: 10px;
+}
+
+.brand, .crossed_price {
+    color: var(--color-bck-card);
+}
+
+.discount_price {
+    color: var(--color-discount);
+}
+
+.crossed_price {
+    text-decoration: line-through;
 }
 
 
