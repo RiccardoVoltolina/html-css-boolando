@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colori*/
+
+:root {
+    --color-nav:#ff6900;
+    --color-bck-card:#e2e2e2;
+    --color-discount:#ff0000;
+    --color-sostenibility:#008000;
+    --color-bck-body:#ffffff;
+    --color-bck-footer:#1a1a1a;
+}
+
+/*regole comuni*/
+
+.flex {
+    display: flex;
+}
