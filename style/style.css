@@ -7,7 +7,7 @@
 /*colori*/
 
 :root {
-    --color-nav:#ff6900;
+    --color-header:#ff6900;
     --color-bck-card:#e2e2e2;
     --color-discount:#ff0000;
     --color-sostenibility:#008000;
@@ -20,3 +20,55 @@
 .flex {
     display: flex;
 }
+
+.flex_center {
+    align-items: center;
+}
+
+.decoration_none {
+    text-decoration: none;
+}
+
+.white {
+    color: var(--color-bck-body);
+}
+
+/*debug*/
+
+
+/*header*/
+
+header {
+    background-color: var(--color-header);
+}
+
+nav {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.nav_1, .nav_3 {
+    width: 25%;
+}
+
+.nav_2 {
+    width: 50%;
+    text-align: center;
+}
+
+.nav_3 {
+    text-align: end;
+}
+
+.boolean_logo {
+    height: 35px;
+    margin: 15px 0;
+}
+
+nav div a {
+    color: var(--color-bck-body);
+}
+
+
+
