@@ -41,7 +41,6 @@
 }
 
 .main_col_1, .main_col_2, .main_col_3 {
-    background-color: black;
     border: 1px solid white;
 }
 
@@ -92,6 +91,11 @@ section {
 .main_col_1, .main_col_2, .main_col_3 {
     width: calc(100% / 3);
     height: 500px;
+}
+
+.main_col_1 {
+    background-image: url(img/img/1.webp);
+    background-size: cover;
 }
 
 
