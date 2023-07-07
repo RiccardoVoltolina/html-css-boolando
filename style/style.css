@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*colori*/
 
 :root {
@@ -153,12 +157,16 @@ main {
     z-index: 3;
 }
 
+.my_heart:hover {
+    color: var(--color-discount);
+}
+
 .card_container_text {
     margin-bottom: 15px;
 }
 
 .brand, .crossed_price {
-    color: var(--color-bck-card);
+    color: 000000;
 }
 
 .discount_price {
